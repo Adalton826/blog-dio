@@ -1,0 +1,29 @@
+.container__small-card {
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Certifique-se de que os itens estão alinhados ao centro (ou ajuste conforme necessário) */
+    margin-bottom: 15px;
+}
+
+
+.small-card__photo img {
+    width: 200px;
+    min-width: 200px;
+    margin-right: 20px;
+}
+
+.small-card__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-card__title h1 {
+    margin: 0; /* Remove a margem padrão do h1 */
+}
+
+.small-card__title h1 a {
+    text-decoration: none; /* Remove sublinhado do link (opcional) */
+    color: inherit; /* Mantém a cor do link igual ao texto (opcional) */
+}
